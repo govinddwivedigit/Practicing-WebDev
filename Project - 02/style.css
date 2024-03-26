@@ -61,6 +61,19 @@ select:focus,
 textarea:focus {
     outline-color: red;
 }
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+    font-family: "Quicksand","sans-serif";
+}
+
+select:optional {
+    font-family: "Quicksand","sans-serif";
+}
+
+.button {
+    font-family: "Quicksand","sans-serif";
+}
 
 input:hover,
 select:hover,
